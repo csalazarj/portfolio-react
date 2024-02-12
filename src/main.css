@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#root{
+	padding: 0;
+	max-width: 2160px;
+}
+
+:root {
+	--theme-color: #FDFBF6;
+	--theme-color-inverse: #242424;
+	--primary-color: rgb(18, 94, 174);
+	--secondary-color: rgb(128, 178, 229);
+	--titles-color: rgb(222, 222, 222);
+	--text-color-inverse: white;
+	--text-color: #242422;
+	padding: 0;
+}
+
