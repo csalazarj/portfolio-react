@@ -4,7 +4,7 @@ export default function Skills() {
 	return( <>
     
         <section className='skills-section'>
-            <h1 className='skills-title'>Skills</h1>
+            <h2 className='skills-title'>HABILIDADES</h2>
             <ul className='skills-list'>
                 <li className='skill-item'>HTML</li>
                 <li className='skill-item'>CSS</li>

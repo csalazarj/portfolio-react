@@ -14,7 +14,7 @@
 
 :root {
 	--theme-color: rgb(45, 46, 50);
-	--theme-color-darker: rgb(37, 38, 42);
+	--theme-color-darker: rgb(33, 34, 37);
 	--theme-color-inverse: #FDFBF6;
 	--theme-color-inverse-darker: #dad9d5;
 	--primary-color: rgb(128, 178, 229);
@@ -26,7 +26,7 @@
 }
 
 body{
-	background-color: var(--theme-color);
+	background-color: var(--theme-color-darker);
 	color: var(--text-color);
-	font-size: 15px;
+	font-size: 17px;
 }

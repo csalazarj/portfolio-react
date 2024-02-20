@@ -3,7 +3,7 @@ import './HeaderPortfolio.css'
 export default function PresentationPortfolio() {
 	return (
 		<>
-			<section className="presentation">
+			<section className="presentation-section">
 				<div className="presentation-text">
 					<h1 className="presentation-title">
 						Hola!, soy <br /> <span>Cristhian</span>
