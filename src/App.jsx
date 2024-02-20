@@ -1,18 +1,16 @@
-// eslint-disable-next-line no-unused-vars
-import ReactLayout from './ReactLayout'
+/* eslint-disable no-unused-vars */
 import PresentationPortfolio from './HeaderPortfolio'
 import Skills from './Skills'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 import ContactPortfolio from './ContactPortfolio'
 
 function App() {
 	return (
 		<>
-			{/* <ReactLayout /> */}
-			<Navbar />
+			{/* <Navbar /> */}
 			<PresentationPortfolio />
-			<Skills />
-			<ContactPortfolio />
+			{/* <Skills /> */}
+			{/* <ContactPortfolio /> */}
 		</>
 	)
 }

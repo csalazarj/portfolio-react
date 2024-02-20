@@ -13,13 +13,20 @@
 }
 
 :root {
-	--theme-color: #FDFBF6;
-	--theme-color-inverse: #242424;
-	--primary-color: rgb(18, 94, 174);
-	--secondary-color: rgb(128, 178, 229);
-	--titles-color: rgb(222, 222, 222);
-	--text-color-inverse: white;
-	--text-color: #242422;
+	--theme-color: rgb(45, 46, 50);
+	--theme-color-darker: rgb(37, 38, 42);
+	--theme-color-inverse: #FDFBF6;
+	--theme-color-inverse-darker: #dad9d5;
+	--primary-color: rgb(128, 178, 229);
+	--secondary-color: #ffffff;
+	--titles-color: var(--primary-color);
+	--text-color: #fafafa;
+	--text-color-darker: #d3d3d3;
 	padding: 0;
 }
 
+body{
+	background-color: var(--theme-color);
+	color: var(--text-color);
+	font-size: 15px;
+}
