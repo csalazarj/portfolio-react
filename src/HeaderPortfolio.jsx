@@ -1,4 +1,5 @@
 import './HeaderPortfolio.css'
+// import { FaGamepad } from 'react-icons/fa'
 
 export default function PresentationPortfolio() {
 	return (
@@ -9,16 +10,16 @@ export default function PresentationPortfolio() {
 						Hola!, soy <br /> Cristhian Salazar
 					</h1>
 					<p className="presentation-description">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. In eum
-						facilis atque hic dignissimos et corporis error id rem, qui enim
-						eaque officia, nobis velit nisi ipsa vero nihil dolores!
+						Desarrollador Web Junior, Ingeniero de Sistemas de la Universidad
+						nacional de Colombia y deportista de Rugby Subacuático
 					</p>
 				</div>
-				<div className='presentation-img-container'>
+				<div className="presentation-img-container">
 					<img
 						src="src/assets/profile-img.png"
 						className="presentation-profile-img"
 					/>
+					{/* <FaGamepad className='presentation-svg'/> */}
 				</div>
 			</section>
 		</>
