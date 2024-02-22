@@ -1,0 +1,25 @@
+@media (360px <= width <= 720px) {
+    footer{
+        font-size: 0.7rem;
+        color: var(--text-color-darker);
+        display: flex;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    footer p{
+        display: flex;
+        width: 50%;
+    }
+
+    .footer-name{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    p span{
+        font-weight: 900;
+        color: var(--text-color);
+    }
+}

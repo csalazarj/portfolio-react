@@ -2,43 +2,41 @@
 	.about-section {
 		display: flex;
 		flex-direction: column;
-		margin-top: 10px;
 		padding: 50px 0;
-		/* border: 1px solid green; */
 	}
 
-    .about-text {
-    }
-    
 	.about-title {
 		display: flex;
 		justify-content: center;
-        margin: 10px 0;
-        
+		margin: 10px 0;
 	}
 
-    .about-description {
+	.about-description {
 		text-align: center;
 		margin: 8vw;
-
 	}
 
 	.about-imgs-container {
 		display: flex;
-        justify-content: space-evenly;
-		/* border: 1px red solid; */
+		justify-content: space-evenly;
 	}
 
-	.about-img {
+	.about-img-box {
+		display: block;
+	}
+
+	.about-img-box img {
 		width: 28vw;
 		display: flex;
-        border-radius: 5%;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.537);
-
+		border-radius: 5%;
+		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.537);
 	}
+}
 
-	.about-img:hover {
-        width: 32vw;
-        transition: 0.2s ease-in-out;
-    }
+@media (hover: hover) {
+	.about-img-box img:hover {
+		transform: scale(1.2);
+		z-index: 3;
+		transition: 0.2s ease-in-out;
+	}
 }
