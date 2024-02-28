@@ -14,6 +14,7 @@ export default function PresentationPortfolio() {
 					</p>
 				</div>
 				<div className="presentation-img-container">
+					{/* <div className='background-img'></div> */}
 					<img
 						src="src/assets/portfolio_img2_sf_1x1.png"
 						className="presentation-profile-img"
