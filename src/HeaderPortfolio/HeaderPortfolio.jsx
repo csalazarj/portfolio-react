@@ -17,7 +17,7 @@ export default function PresentationPortfolio() {
 							<div className="button-container">
 								<a
 									className="download-button"
-									href="../assets/CV_Cristhian_Salazar_J_2024.pdf"
+									href="./CV_Cristhian_Salazar_J_2024.pdf"
 									download
 								>
 									Descargar CV
