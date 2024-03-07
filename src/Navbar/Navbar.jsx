@@ -10,19 +10,9 @@ export default function Navbar() {
 	}
 	return (
 		<>
-			{/* <section className="navbar-section">
-				<a href='#' className='navbar-logo'>Logo</a>
-				<ul className="navbar-list">
-					<li className="navbar-list-item">Home</li>
-					<li className="navbar-list-item">Skills</li>
-					<li className="navbar-list-item">Portfolio</li>
-					<li className="navbar-list-item">Contact</li>
-				</ul>
-			</section> */}
-
 			<header>
 				<h3 href="#">
-					Logo
+					Cristhian Salazar J.
 				</h3>
 				<nav ref={navRef}>
 					<a>Home</a>

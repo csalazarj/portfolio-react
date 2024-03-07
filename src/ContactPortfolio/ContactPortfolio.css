@@ -1,0 +1,64 @@
+@media (width >= 360px) {
+	.contact-section {
+		padding: 50px 30px;
+	}
+
+	.contact-list-icons {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: start;
+	}
+
+	.contact-box {
+		display: flex;
+		width: 100%;
+		justify-content: flex-end;
+		align-items: center;
+        gap: 10px;
+        padding: 5px;
+	}
+
+	.contact-box a {
+		display: flex;
+		align-items: center;
+		font-size: 2.5rem;
+		cursor: pointer;
+	}
+
+	.contact-box span {
+		display: flex;
+		justify-content: center;
+		align-self: center;
+        color: var(--text-color-darker);
+        font-size: 0.8rem;
+	}
+
+	/* .contact-icon {
+		display: flex;
+		align-items: center;
+	} */
+
+	.linkedin {
+		color: #0f56c8;
+        display: flex;
+		align-items: center;
+	}
+
+	.github {
+		color: rgb(115, 61, 167);
+        display: flex;
+		align-items: center;
+	}
+
+	.mail {
+		color: rgb(104, 102, 102);
+        display: flex;
+		align-items: center;
+	}
+}
+
+
+@media (width >= 960px) {
+	
+}

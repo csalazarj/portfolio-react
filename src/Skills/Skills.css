@@ -1,0 +1,86 @@
+@media (width >= 320px) {
+
+	.skills-section {
+		max-width: 768px;
+		padding: 50px 0;
+		background-color: var(--theme-color);
+	}
+
+	.skills-title {
+		display: flex;
+		justify-content: center;
+	}
+
+	.skills-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		line-height: 50px;
+		margin-top: 1.5em;
+	}
+
+	.skill-card {
+		display: flex;
+		flex-direction: column;
+		width: 135px;
+		height: 150px;
+		margin: 10px;
+		justify-content: center;
+		align-content: center;
+		background-color: var(--theme-color-darker);
+		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.537);
+	}
+
+	.skill-card h3 {
+		display: flex;
+		justify-content: center;
+		font-size: 0.9em;
+	}
+
+	.react-icon {
+		color: rgb(20, 159, 202);
+		display: flex;
+		align-self: center;
+		width: 60%;
+		height: 60%;
+	}
+
+	.css-icon {
+		color: #0070ba;
+		display: flex;
+		align-self: center;
+		width: 60%;
+		height: 60%;
+	}
+
+	.html-icon {
+		color: rgb(229, 77, 38);
+		display: flex;
+		align-self: center;
+		width: 60%;
+		height: 60%;
+	}
+
+	.nodejs-icon {
+		color: rgb(130, 205, 40);
+		display: flex;
+		align-self: center;
+		width: 60%;
+		height: 60%;
+	}
+
+	.js-icon {
+		color: rgb(242, 220, 85);
+		display: flex;
+		align-self: center;
+		width: 60%;
+		height: 60%;
+	}
+}
+
+@media (width >= 768px) {
+	.skills-section {
+		margin: 0 auto;
+	}
+}
