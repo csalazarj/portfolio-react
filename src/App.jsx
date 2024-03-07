@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
-import PresentationPortfolio from './HeaderPortfolio'
-import About from './About'
-import Skills from './Skills'
 // import Navbar from './Navbar'
-import FooterPortfolio from './FooterPortfolio'
-import ContactPortfolio from './ContactPortfolio'
+import PresentationPortfolio from './HeaderPortfolio/HeaderPortfolio'
+import About from './About/About'
+import Skills from './Skills/Skills'
+import FooterPortfolio from './FooterPortfolio/FooterPortfolio'
+import ContactPortfolio from './ContactPortfolio/ContactPortfolio'
 
 function App() {
 	return (

@@ -1,9 +1,9 @@
 @media (width >= 320px) {
+
 	.skills-section {
 		max-width: 768px;
 		padding: 50px 0;
 		background-color: var(--theme-color);
-		/* border: 1px solid green; */
 	}
 
 	.skills-title {
@@ -54,7 +54,7 @@
 		height: 60%;
 	}
 
-	.html-icon{
+	.html-icon {
 		color: rgb(229, 77, 38);
 		display: flex;
 		align-self: center;
@@ -62,16 +62,15 @@
 		height: 60%;
 	}
 
-	.nodejs-icon{
+	.nodejs-icon {
 		color: rgb(130, 205, 40);
 		display: flex;
 		align-self: center;
 		width: 60%;
 		height: 60%;
-
 	}
 
-	.js-icon{
+	.js-icon {
 		color: rgb(242, 220, 85);
 		display: flex;
 		align-self: center;
@@ -80,10 +79,8 @@
 	}
 }
 
-
-@media (width >= 768px){
-	.skills-section{
-		/* max-width: 768px; */
+@media (width >= 768px) {
+	.skills-section {
 		margin: 0 auto;
 	}
 }
