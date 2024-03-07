@@ -1,4 +1,5 @@
 import './HeaderPortfolio.css'
+import portfolioImg from './assets/portfolio_img2_sf_1x1.png'
 
 export default function PresentationPortfolio() {
 	return (
@@ -25,7 +26,7 @@ export default function PresentationPortfolio() {
 						</div>
 						<div className="presentation-img-container">
 							<img
-								src="src/assets/portfolio_img2_sf_1x1.png"
+								src={portfolioImg}
 								className="presentation-profile-img"
 							/>
 						</div>

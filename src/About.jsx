@@ -1,4 +1,7 @@
 import './About.css'
+import about_img1 from './assets/about_img1.jpg'
+import about_img2 from './assets/about_img2.jpg'
+import about_img3 from './assets/about_img3.jpg'
 
 export default function About() {
 	return (
@@ -16,7 +19,7 @@ export default function About() {
 
 				<div className="about-imgs-container">
 					<div className="about-img-box">
-						<img src="src/assets/about_img1.jpg"></img>
+						<img src={about_img1}></img>
 						<p>
 							Además de mi carrera en tecnología, tengo años de experiencia como
 							editor de videos, una habilidad que he aplicado extensivamente en
@@ -26,7 +29,7 @@ export default function About() {
 						</p>
 					</div>
 					<div className="about-img-box">
-						<img src="src/assets/about_img2.jpg"></img>
+						<img src={about_img2}></img>
 						<p>
 							Como desarrollador y editor de videos, valoro la precisión, la
 							creatividad y el trabajo en equipo, tanto en el ámbito digital
@@ -36,7 +39,7 @@ export default function About() {
 						</p>
 					</div>
 					<div className="about-img-box">
-						<img src="src/assets/about_img3.jpg"></img>
+						<img src={about_img3}></img>
 						<p>
 							¡Bienvenidos a mi rincón digital, donde la innovación, la
 							determinación y la creatividad se encuentran para crear algo único

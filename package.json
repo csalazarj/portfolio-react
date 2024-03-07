@@ -1,7 +1,7 @@
 {
   "name": "portafolio-personal",
   "private": true,
-  "homepage": "https://csalazarj.github.io/portfolio-react",
+  "homepage": "https://csalazarj.github.io/portfolio-react/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
