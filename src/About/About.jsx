@@ -10,7 +10,7 @@ export default function About() {
 				<div className="about-header">
 					<h2 className="about-title">SOBRE MI</h2>
 					<p className="about-description">
-						Me graduade en Ingeniería de Sistemas en la Universidad Nacional
+						Me gradué en Ingeniería de Sistemas en la Universidad Nacional
 						de Colombia, con un fuerte enfoque en el desarrollo de aplicaciones
 						web. Mi educación y curiosidad me impulsan a buscar soluciones
 						tecnológicas innovadoras para los problemas de mis clientes.
