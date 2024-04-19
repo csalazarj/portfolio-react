@@ -1,6 +1,6 @@
 @media (width >= 320px) {
 	.hero {
-		background-image: url(.././assets/fondo1.png);
+		background-image: url(.././assets/fondo1_mini.jpg);
 		background-position: center;
 		background-size: cover;
 		position: relative;

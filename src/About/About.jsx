@@ -1,7 +1,7 @@
 import './about.css'
-import about_img1 from '../assets/about_img1.jpg'
-import about_img2 from '../assets/about_img2.jpg'
-import about_img3 from '../assets/about_img3.jpg'
+import about_img1 from '../assets/about_img1_mini.jpg'
+import about_img2 from '../assets/about_img2_mini.jpg'
+import about_img3 from '../assets/about_img3_mini.jpg'
 
 export default function About() {
 	return (
